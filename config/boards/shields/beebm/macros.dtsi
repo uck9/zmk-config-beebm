@@ -1,6 +1,6 @@
-macro_copy: macro_copy {
+mcr_copy: mcr_copy {
     compatible = "zmk,behavior-macro";
-    label = "macro_copy";
+    label = "mcc_copy";
     #binding-cells = <0>;
     wait-ms = <20>;
     tap-ms = <10>;
@@ -9,9 +9,9 @@ macro_copy: macro_copy {
         <&macro_tap &kp C>,
         <&macro_release &kp LEFT_CTRL>;
 };
-macro_paste: macro_paste {
+mcr_paste: mcr_paste {
     compatible = "zmk,behavior-macro";
-    label = "macro_paste";
+    label = "mcr_paste";
     #binding-cells = <0>;
     wait-ms = <20>;
     tap-ms = <10>;

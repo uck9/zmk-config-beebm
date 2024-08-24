@@ -16,8 +16,8 @@
 
 / {
         behaviors {
-                MACRO(copy, &macro_press &kp LCTRL &macro_tap &kp C &macro_release &kp LCTRL)
-                MACRO(paste, &macro_press &kp LCTRL &macro_tap &kp V &macro_release &kp LCTRL)
+                MACRO(copy, &macro_press &kp LCTRL &macro_tap &kp C &macro_release &kp LCTRL);
+                MACRO(paste, &macro_press &kp LCTRL &macro_tap &kp V &macro_release &kp LCTRL);
         }
 
         keymap {

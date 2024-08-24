@@ -4,10 +4,6 @@
 #include <dt-bindings/zmk/outputs.h>
 
 / {
-        behaviors {
-                #include "macros.dtsi"
-        }
-
         keymap {
                 compatible = "zmk,keymap";
 

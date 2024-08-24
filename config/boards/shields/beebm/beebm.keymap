@@ -6,7 +6,7 @@
 #define EXPAND_AND_STRINGIFY(x) STRINGIFY(x)
 #define MACRO(NAME, BINDINGS) \
   mac_##NAME: mac_##NAME { \
-    label = EXPAND_AND_STRINGIFY(mcr_##NAME); \
+    label = EXPAND_AND_STRINGIFY(mac_##NAME); \
     compatible = "zmk,behavior-macro"; \
     #binding-cells = <0>; \
     wait-ms = <20>; \

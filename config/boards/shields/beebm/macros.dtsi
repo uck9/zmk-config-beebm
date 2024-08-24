@@ -7,7 +7,7 @@ macro_copy: macro_copy {
     bindings = 
         <&macro_press &kp LEFT_CTRL>,
         <&macro_tap &kp C>;
-        <&macro_release &kp LEFT_CTRL>,
+        <&macro_release &kp LEFT_CTRL>;
 };
 macro_paste: macro_paste {
     compatible = "zmk,behavior-macro";
@@ -18,5 +18,5 @@ macro_paste: macro_paste {
     bindings = 
         <&macro_press &kp LEFT_CTRL>,
         <&macro_tap &kp V>;
-        <&macro_release &kp LEFT_CTRL>,
+        <&macro_release &kp LEFT_CTRL>;
 };
